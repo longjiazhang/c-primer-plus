@@ -2,6 +2,8 @@
 
 #include <array>
 
+#include <string>
+
 using namespace std;
 
 void lianxi51();
@@ -14,16 +16,23 @@ void lianxi54();
 
 void lianxi55();
 
+void lianxi56();
+
+void lianxi57();
+
 const int ArSize = 101;
+
+struct car 
+{
+	string name_of_product;
+
+	int years;
+
+};
 
 int main()
 {
-	lianxi55();
-
-
-
-
-
+	lianxi57();
 
 	system("pause");
 
@@ -87,10 +96,6 @@ void lianxi52()
 		cout << i << "! = " << arr[i] << endl;
 
 	 }
-	
-
-
-
 
 }
 void lianxi53()
@@ -180,8 +185,105 @@ void lianxi55()
 	cout << "一年总共销售的书本是：" << total << endl;
 
 
+}
+
+void lianxi56()	  
+
+{
+	char * months[3][12] =
+	{ 
+		{ "1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月" },
+		{ "1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月" },
+		{ "1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月" }
+	
+	};
+
+	int books[3][12];
+
+	int total[3] = { 0, 0, 0 };
+
+	for (int a =0; a <3;a++)
+	{
+	
+		cout << "请输入第  " << a+1 << "  年的每月销售量" << endl;
+
+		cout << endl;
+
+		cout << endl;
 
 
+	  for (int i = 0; i < 12; i++)
+
+	 {
+		cout << "请输入" << months[a][i] << "这个月的销售量" << endl;
+
+		cin >> books[a][i];
+
+	 }
+
+	for (int i = 0; i < 12; i++)
+
+	{
+
+		total[a] = total[a] + books[a][i];
+
+	}
+
+	cout << "一年总共销售的书本是：" << total[a] << endl;
+
+	}
+
+	int all=0;
+
+	for (int b = 0; b < 3;b++)
+
+	{
+		all = all + total[b];
+
+	}
+
+	cout << "三年的总销售额是:  " << all << endl;
+
+}
+
+
+void lianxi57()
+
+{
+   
+	cout << "How many cars do you wish to catalog ?" << endl;
+
+	int shulaing;
+
+	cin >> shulaing;
+
+	car * duixiang = new car[shulaing];
+
+	for (int i = 0; i < shulaing;i++)
+
+	{
+		cout << "Car #" << i + 1 << endl;
+
+		cout << "Please enter the make: " << endl;
+
+		cin >> duixiang[i].name_of_product;
+
+		cin.get();
+
+		cout << "Please enter the year made: " << endl;
+
+		cin >> duixiang[i].years;
+
+	}
+
+	cout << "Here is your Hornet" << endl;
+
+	for (int i = 0; i < shulaing;i++)
+	{
+
+		cout << duixiang[i].years << "   " << duixiang[i].name_of_product << endl;
+
+	}
 
 
 }
