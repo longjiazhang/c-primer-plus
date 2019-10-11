@@ -4,6 +4,8 @@
 
 #include <string>
 
+#include <cstring>
+
 using namespace std;
 
 void lianxi51();
@@ -20,6 +22,12 @@ void lianxi56();
 
 void lianxi57();
 
+void lianxi58();
+
+void lianxi59();
+
+void lianxi10();
+
 const int ArSize = 101;
 
 struct car 
@@ -32,7 +40,7 @@ struct car
 
 int main()
 {
-	lianxi57();
+	lianxi10();
 
 	system("pause");
 
@@ -284,6 +292,108 @@ void lianxi57()
 		cout << duixiang[i].years << "   " << duixiang[i].name_of_product << endl;
 
 	}
+
+	delete[] duixiang;
+
+}
+
+void lianxi58()
+
+{
+	cout << "Enter words (to stop, type the word done" << endl;
+
+	char danci[100];
+
+	static char stop[] = "done";
+
+	int shuliang = 0;
+
+	
+   do
+
+   {
+	   cin >> danci;
+
+	   shuliang++;
+
+
+   } 
+   
+   while ( strcmp(danci,stop));
+
+   cout << "You entered a total of " << shuliang-1 << "  words" << endl;
+
+}
+
+void lianxi59()
+{
+	cout << "Enter words (to stop, type the word done" << endl;
+
+	string danci;
+
+	static string s1 = "done";
+
+	int shuliang = 0;
+
+
+	do
+
+	{
+		cin >> danci;
+
+		shuliang++;
+
+	}
+
+	while (s1!=danci);
+
+	cout << "You entered a total of " << shuliang - 1 << "  words" << endl;
+
+}
+
+void lianxi10()
+
+{
+	cout << "请输入一个值：" << endl;
+
+	int  zhi=0;
+
+	cin >> zhi;
+
+	for (int i = 1; i <= zhi;i++)
+
+	{
+
+
+		for (int a = 1; a <= zhi-i;a++)
+
+		{
+
+			cout << "  .  ";
+
+
+		}
+
+		for (int a = 1; a <=  i; a++)
+
+		{
+
+			cout << "  *  ";
+
+
+		}
+
+		cout << endl;
+
+		cout << endl;
+
+
+	}
+
+
+
+
+
 
 
 }
