@@ -77,12 +77,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cctypes.cpp" />
     <ClCompile Include="delete.cpp" />
+    <ClCompile Include="enum_switch.cpp" />
+    <ClCompile Include="jump_continue_break.cpp" />
+    <ClCompile Include="switch.cpp" />
+    <ClCompile Include="写入到文本文件.cpp" />
     <ClCompile Include="循环和文本输入.cpp" />
     <ClCompile Include="指针数组结构组合.cpp" />
     <ClCompile Include="数组vectorarray.cpp" />
     <ClCompile Include="第五章练习.cpp" />
+    <ClCompile Include="第六章练习.cpp" />
     <ClCompile Include="第四章练习.cpp" />
+    <ClCompile Include="读文本文件.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

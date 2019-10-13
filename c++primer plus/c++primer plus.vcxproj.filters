@@ -33,5 +33,26 @@
     <ClCompile Include="第五章练习.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="cctypes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="switch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enum_switch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jump_continue_break.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="写入到文本文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="读文本文件.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="第六章练习.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

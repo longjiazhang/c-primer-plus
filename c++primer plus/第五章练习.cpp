@@ -38,14 +38,14 @@ struct car
 
 };
 
-int main()
+/*int main()
 {
 	lianxi10();
 
 	system("pause");
 
 	return 0;
-}
+}*/
 
 void lianxi51()
 

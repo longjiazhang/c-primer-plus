@@ -1,18 +1,25 @@
-﻿生成启动时间为 2019/10/11 23:38:47。
+﻿生成启动时间为 2019/10/13 17:18:01。
      1>项目“E:\github\c++primer plus\c++primer plus\c++primer plus.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "第五章练习.cpp"
-         第五章练习.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "第六章练习.cpp"
+         第六章练习.cpp
        Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\github\c++primer plus\Debug\c++primer plus.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\github\c++primer plus\Debug\c++primer plus.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\github\c++primer plus\Debug\c++primer plus.lib" /MACHINE:X86 Debug\delete.obj
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\github\c++primer plus\Debug\c++primer plus.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\github\c++primer plus\Debug\c++primer plus.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\github\c++primer plus\Debug\c++primer plus.lib" /MACHINE:X86 Debug\cctypes.obj
+         Debug\delete.obj
+         Debug\enum_switch.obj
+         Debug\jump_continue_break.obj
+         Debug\switch.obj
+         "Debug\写入到文本文件.obj"
          "Debug\循环和文本输入.obj"
          "Debug\指针数组结构组合.obj"
          "Debug\数组vectorarray.obj"
          "Debug\第五章练习.obj"
+         "Debug\第六章练习.obj"
          "Debug\第四章练习.obj"
+         "Debug\读文本文件.obj"
          c++primer plus.vcxproj -> E:\github\c++primer plus\Debug\c++primer plus.exe
      1>已完成生成项目“E:\github\c++primer plus\c++primer plus\c++primer plus.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.75
+已用时间 00:00:00.76

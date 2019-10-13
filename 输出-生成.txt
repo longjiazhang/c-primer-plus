@@ -1,4 +1,4 @@
 ﻿1>------ 已启动生成:  项目: c++primer plus, 配置: Debug Win32 ------
-1>  第五章练习.cpp
+1>  第六章练习.cpp
 1>  c++primer plus.vcxproj -> E:\github\c++primer plus\Debug\c++primer plus.exe
 ========== 生成:  成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
