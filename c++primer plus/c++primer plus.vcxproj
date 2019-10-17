@@ -82,10 +82,17 @@
     <ClCompile Include="enum_switch.cpp" />
     <ClCompile Include="jump_continue_break.cpp" />
     <ClCompile Include="switch.cpp" />
+    <ClCompile Include="传递和返回结构.cpp" />
+    <ClCompile Include="传递结构的地址.cpp" />
     <ClCompile Include="写入到文本文件.cpp" />
+    <ClCompile Include="函数和array对象.cpp" />
+    <ClCompile Include="函数指针.cpp" />
+    <ClCompile Include="函数递归调用.cpp" />
     <ClCompile Include="循环和文本输入.cpp" />
     <ClCompile Include="指针数组结构组合.cpp" />
     <ClCompile Include="数组vectorarray.cpp" />
+    <ClCompile Include="深入函数指针.cpp" />
+    <ClCompile Include="第七章练习.cpp" />
     <ClCompile Include="第五章练习.cpp" />
     <ClCompile Include="第六章练习.cpp" />
     <ClCompile Include="第四章练习.cpp" />

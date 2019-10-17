@@ -47,7 +47,7 @@ struct  bop
 };
 
 
-int main()
+/*int main()
 
 {
 	lianxi69();
@@ -56,7 +56,7 @@ int main()
 
 	return 0;
 	
-}
+} */
 
 void lianxi61()
 
